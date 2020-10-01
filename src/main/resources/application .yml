@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: mx.gob.nayarit.productor.serializer.VehicularSerializer
+      value-serializer: mx.gob.nayarit.productor.serializer.VehicularSerializer
